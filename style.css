@@ -1,0 +1,705 @@
+/* .header {
+  display: flex;
+  flex-direction: row;
+  margin-right: 50rem;
+  padding-left: 1rem;
+} */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 5px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.working-hours {
+  display: flex;
+  align-items: center;
+}
+
+.last-pad2 {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  /* padding-right: 2rem; */
+  margin-right: 2rem;
+}
+
+.text-pad {
+  margin: 0;
+  font-size: 14px;
+}
+
+.header img {
+  margin-right: -7px;
+}
+
+.header button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #0056b3;
+}
+
+.font-size2 {
+  font-size: x-large;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.background {
+  background-image: url("https://wallpapercave.com/wp/wp2968489.jpg");
+  height: 100vh;
+  width: 90vw;
+  text-align: center;
+  background-size: cover;
+}
+.background-text {
+  padding: 100px;
+  font-size: x-large;
+}
+.get-started-btn {
+  background-color: blue;
+  height: 50px;
+  width: 120px;
+  color: aquamarine;
+  border-radius: 20px;
+}
+.padding-card {
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  background-color: azure;
+  height: 350px;
+  width: 80rem;
+  padding-right: 50px;
+  margin-right: 5rem;
+  margin-left: 10rem;
+}
+
+.card-flex {
+  display: flex;
+}
+.size-text {
+  font-size: x-large;
+  margin: 1px;
+  margin-top: 0%;
+  font-weight: bold;
+}
+/* .tickmark {
+  padding: 20px;
+  margin: 10px;
+  padding-right: 30px;
+}
+.tickmark2 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+} */
+
+.card-flex-2 {
+  display: flex;
+  gap: 80px;
+}
+
+.tickmark {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 05px;
+}
+
+.tickmark div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.background2 {
+  background-color: rgb(235, 33, 151);
+  height: 130vh;
+  width: 100vw;
+}
+.white {
+  color: white;
+  font-size: larger;
+}
+.card {
+  background-color: white;
+  font: 10px;
+  color: black;
+  border: 20px;
+  padding: 40px;
+  height: 300px;
+  width: 300px;
+  padding-top: 20px;
+  margin-left: 5rem;
+}
+.blue {
+  color: blue;
+}
+.class-35 {
+  height: 200px;
+  width: 209px;
+  /* padding: 6px;
+  margin: 3px; */
+  margin-bottom: -33px;
+
+  color: blue;
+  font-weight: bolder;
+}
+.size {
+  font-size: 50px;
+}
+.button {
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: blue;
+  border-color: white;
+}
+.color {
+  color: white;
+}
+.center {
+  text-align: center;
+}
+.pad {
+  padding-left: 250px;
+  padding-right: 20px;
+  padding-top: 1rem;
+  margin-top: 5rem;
+}
+.pad2 {
+  padding: 50px;
+}
+.pad_ppl {
+  padding-top: 10px;
+}
+.background3 {
+  background-color: rgb(33, 30, 36);
+  border-width: 50px;
+  background-size: 3px;
+  height: fit-content;
+  width: 500px;
+}
+.color2 {
+  color: rgb(121, 116, 116);
+}
+.background4 {
+  background-color: black;
+  border-width: 5000px;
+  background-size: 3px;
+  height: fit-content;
+  width: 1600px;
+  color: white;
+}
+.button2 {
+  border-color: blue;
+  background-color: black;
+  height: 60px;
+  width: 128px;
+  color: white;
+  padding: 10px;
+}
+/* /* .pad3 {
+  padding-top: 55px;
+  padding-bottom: 55px;
+  color: white;
+  background-color: black;
+} */
+/* .pad4 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.pad5 {
+  padding-left: 17rem;
+}
+.pad6 {
+  padding-right: 2rem;
+} */
+/* .img-pad {
+  padding-right: 20rem;
+} */
+.text-pad {
+  padding-right: 2rem;
+  display: flex;
+}
+.last-pad {
+  padding-left: 2rem;
+  /* padding-right: 20rem; */
+  /* padding: 2rem; */
+  display: flex;
+}
+.last-pad2 {
+  padding-right: 10rem;
+  padding-left: 50rem;
+  display: flex;
+  flex-direction: row;
+  padding-right: 10rem;
+}
+.porto-logo {
+  padding-left: 100px;
+  padding-right: 36rem;
+}
+.links {
+  padding-right: 2rem;
+  display: flex;
+}
+
+.our-specialists {
+  padding-left: 10rem;
+}
+.our-specialists2 {
+  margin-top: 5rem;
+}
+/* .doctor-img {
+  padding-right: 3.2rem;
+  padding: auto;
+}
+.doctor-img2 {
+  /* padding-right: 3.2 rem; */
+/* padding: auto; */
+/* display: flex;
+  flex-direction: row;
+  height: 200px;
+  width: 350px;
+  background-color: red;
+} */
+
+.doctors-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.doctor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.doctor-img {
+  border-radius: 0%;
+  margin-bottom: -10px;
+}
+
+.doctor-name {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  /* padding-bottom: 0px; */
+  margin-bottom: 5px;
+}
+
+.patients-review {
+  text-align: left;
+  padding: 20px;
+  margin-top: 2rem;
+}
+/* .doctor-review {
+  text-align: left;
+  font: bold;
+}*/
+.doc-img {
+  margin-top: 5rem;
+  margin-left: 80rem;
+}
+/* .arrow {
+  margin-left: -8rem;
+  padding: 10px; */
+/* display: flex; */
+
+/* .doctor-review {
+  text-align: left;
+  padding: 20px;
+  margin-top: 5rem;
+} */
+
+/* .review-content {
+  display: flex;
+  align-items: flex-start; /* Align arrow with the top of the text */
+/* gap: 20px; Space between the arrow and the text */
+/* } */
+
+/* .arrow-link {
+  display: inline-block;
+}
+
+.arrow {
+  margin: 0; /* Remove unnecessary margins */
+/* cursor: pointer; /* Add a pointer cursor to indicate the link is clickable */
+/* } */
+
+/* .review-text {
+  max-width: 600px; Optional: Set a width for the text block
+} */
+
+/* .review-text p {
+  margin: 0 0 10px; Add spacing between paragraphs
+} */
+
+/* h3 { */
+/* margin-top: 10px; /* Add space above the name */
+/* } */
+
+.doctor-review {
+  text-align: left;
+  padding: 20px;
+  margin-top: 2rem;
+}
+
+.review-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.arrow-link {
+  display: inline-block;
+}
+
+.arrow {
+  margin: 0; /* Remove unnecessary margins */
+  cursor: pointer; /* Add a pointer cursor to indicate the link is clickable */
+}
+
+.review-text {
+  max-width: 600px; /* Optional: Set a width for the text block */
+  text-align: center; /* Center-align the text */
+}
+
+.review-text p {
+  margin: 0 0 10px; /* Add spacing between paragraphs */
+}
+
+h3 {
+  margin-top: 10px; /* Add space above the name */
+}
+
+/* Background and Content Styling */
+.background2 {
+  background-color: #f3f4f6; /* Light grey background */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.text-content .white {
+  color: #333; /* Dark grey for text */
+  margin: 10px 0;
+}
+
+/* Cards Container */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Space between rows */
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between cards */
+}
+
+/* Individual Card Styling */
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #0077b6;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.card a {
+  display: block;
+  margin-top: 10px;
+  color: #0077b6;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(-5px) rotate(1deg);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cta-section {
+  margin-top: 50px;
+}
+
+.cta-section .color {
+  color: rgb(13, 13, 234);
+}
+
+.cta-section .button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.cta-section .button:hover {
+  background-color: #63e91b;
+}
+
+/* .span-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* margin-right: 2rem; */
+/* padding-right: 2rem; */
+/* background-color: rgb(108, 72, 6);
+  height: 300px;
+  width: 500px;
+}
+.card-2 { */
+/* background-color: white;
+  height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+} */
+
+.blog-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f3f4f6;
+}
+
+.blog-card {
+  background-color: white;
+
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-img {
+  width: 300px;
+  height: 250px;
+}
+
+.blog-content {
+  padding: 15px;
+  text-align: left;
+}
+
+.blog-content p {
+  margin: 10px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.blog-content h2 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #331ddfe3;
+}
+
+.blog-content a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #129090;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.blog-content a:hover {
+  text-decoration: underline;
+}
+
+.emer-card {
+  height: 110px;
+  width: 450px;
+  background-color: rgb(3, 3, 70);
+  padding: 5px;
+  color: azure;
+}
+.doct-tmg-card {
+  height: 110px;
+  width: 450px;
+  background-color: rgb(52, 51, 51);
+  padding: 5px;
+  /* color: azure; */
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* .view-more {
+  border: rgb(3, 3, 70);
+  border-width: 5px;
+  background-color: rgb(3, 3, 70);
+  border-color: white;
+  height: 89px;
+  width: 208px;
+  border-style: lined;
+  color: white;
+  /* border-radius: 50px; */
+/* } */
+
+/* .emer-card2 {
+  height: 80px;
+  width: 550px;
+  background-color: rgb(3, 3, 70);
+  padding: 5px;
+  color: azure; */
+/* display: flex; */
+/* } */
+
+.emer-card2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 500px;
+  background-color: rgb(3, 3, 70);
+  padding: 10px;
+  color: azure;
+  box-sizing: border-box;
+}
+
+/* .content {
+  max-width: 45%;
+} */
+
+.view-more {
+  border: 2px solid white;
+  background-color: rgb(3, 3, 70);
+  color: white;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.view-more a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  line-height: 40px;
+  border-color: blue;
+}
+.bag-container {
+  background-color: #080202;
+  height: 100vh;
+  width: 100vw;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: row;
+}
+
+.last-footer {
+  /* background-color: #333; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 12rem;
+  margin-top: 15rem;
+}
+.get-in-touch {
+  flex-direction: row;
+  display: flex;
+  color: aliceblue;
+  font-size: larges;
+  flex-wrap: wrap;
+  /* margin-top: 15rem; */
+}
+
+.medical-services {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  display: flex;
+  padding-left: 10rem;
+  margin-right: 20rem;
+  color: #afaaaa;
+  /* margin-top: 25px; */
+}
+.grey-color {
+  color: #555;
+}
+.address {
+  margin-top: -32.4rem;
+  margin-left: -1rem;
+  display: flex;
+  flex-direction: row;
+}
+.margin-gv {
+  margin-left: 15rem;
+}
+
+.class-clumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: -35rem;
+  color: #afaaaa;
+  margin-left: 300px;
+}
+
+.medical-services-2 {
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  display: flex;
+  padding-left: 3rem;
+  margin-right: 20rem;
+  color: #afaaaa;
+  /* margin-top: 25px; */
+  font-size: 20px;
+  margin-top: -2rem;
+  padding: 1px;
+}
+
+.font-size2 {
+  font-size: 15px;
+}
